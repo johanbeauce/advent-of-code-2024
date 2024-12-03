@@ -23,7 +23,7 @@ class Day01Test {
     void setUp() throws IOException {
         day01 = new Day01();
         inputExample = Files.readAllLines(Path.of("src/main/resources/day01/inputExample.txt"));
-        input = Files.readAllLines(Path.of("src/main/resources/day01/input.txt"));
+        input = Files.readAllLines(Path.of("src/main/resources/day01/inputResult.txt"));
     }
 
     @Nested

@@ -21,7 +21,7 @@ class Day02Test {
     void setUp() throws IOException {
         day02 = new Day02();
         inputExample = Files.readAllLines(Path.of("src/main/resources/day02/inputExample.txt"));
-        inputResult = Files.readAllLines(Path.of("src/main/resources/day02/input.txt"));
+        inputResult = Files.readAllLines(Path.of("src/main/resources/day02/inputResult.txt"));
     }
 
     @Nested
